@@ -1,9 +1,25 @@
 /* Font style */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+/* share style */
 * {
     font-family: "Open Sans", sans-serif;
-  }
+}
+.title{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.btn-primary{
+    color: #fff;
+    background: #ff900e;
+    font-size: 1.25rem;
+    padding: 20px 25px;
+    border: 0px;
+    border-radius: 8px;
+    cursor: pointer;
+}
 
+/* main css */
 header{
     background: #FFF4E7;
     padding: 50px 240px;
@@ -13,7 +29,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.nav-title{
+.title{
     color: #131313;
     font-size: 2.8rem;
     font-weight: 700;
@@ -48,3 +64,29 @@ nav a{
 .banner-description{
     color: #727272;
 }
+.banner-img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* main part */
+main{
+    max-width: 1440px ;
+    margin: 70px auto;
+}
+/* team contant */
+.team-contaner{
+    display: flex;
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.team-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+/* Fact contant */
