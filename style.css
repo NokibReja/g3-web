@@ -9,6 +9,9 @@
     font-size: 2.8rem;
     font-weight: 700;
 }
+.text{
+    color: #727272;
+}
 .btn-primary{
     color: #fff;
     background: #ff900e;
@@ -29,19 +32,11 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.title{
-    color: #131313;
-    font-size: 2.8rem;
-    font-weight: 700;
-
-}
-
 nav > ul{
     display: flex;
 }
 nav li{
     list-style: none;
-    /* text-decoration: none; */
     margin-right: 30px;
     font-weight: 500;
     font-size: 1rem;
@@ -50,7 +45,6 @@ nav a{
     text-decoration: none;
     color: #727272;
 }
-
 .banner-content{
     max-width: 800px;
     text-align: center;
@@ -88,5 +82,80 @@ main{
     padding-left: 70px;
     padding-right: 70px;
 }
-
+/* feature */
+.feature{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+.feature .title{
+    border-left: 5px solid #ff900e;
+    padding-left: 20px;
+}
+.feature-card{
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.2);
+}
+.feature-img img{
+    height: 90%;
+    margin-left: 150px;
+}
+.year-badge{
+    border-radius: 8px;
+    background-color: #ff900e;
+    color: #fff;
+    padding: 20px;
+    width: 341PX;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+.year-badge h2{
+    font-size: 4rem;
+    margin: 0px;
+}
+.year-badge p{
+    font-size: 1.5rem;
+}
 /* Fact contant */
+.fact{
+    margin-top: 150px;
+}
+.fact-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    border-radius: 8px;
+     border: 1px solid #ff900e;
+     padding: 40px 60px;
+     text-align: center;
+}
+.card h2{
+    margin: 0px;
+}
+
+/* sponsors */
+.sponsor{
+    text-align: center;
+    margin-top: 200px;
+}
+.sponsor-img-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Footer */
+footer{
+    max-width: 1000px;
+    margin: 80px auto;
+}
+.footer{
+    background: #FFF4E7;
+    text-align: center;
+    padding: 10PX;
+}
